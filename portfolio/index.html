@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f4ee">
+  <meta name="description" content="Sanullah Feroz — Full-Stack Developer & AI Engineer. Building modern web applications, powerful backends, APIs, database architectures, and intelligent AI systems including agentic AI, AI agents, and workflow automation.">
+  <meta name="author" content="Sanullah Feroz">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sanullah Feroz — Full-Stack Developer & AI Engineer">
+  <meta property="og:description" content="Full-stack engineering meets applied AI: web apps, APIs, databases, agentic AI, AI agents and workflow automation.">
+
+  <title>Sanullah Feroz | Full-Stack Developer &amp; AI Engineer</title>
+
+  <!-- Progressive enhancement: only hide reveal content when JS is available -->
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Fonts: Fraunces (serif display) + Inter (UI/body) + JetBrains Mono (micro labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#home" class="nav__logo" aria-label="Sanullah Feroz — Home">
+        <span class="nav__logo-mark">SF</span>
+        <span class="nav__logo-text">Sanullah&nbsp;Feroz</span>
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#journey" class="nav__link">Journey</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn--sm btn--primary nav__cta">Let's Talk</a>
+      </div>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__wash hero__wash--1"></span>
+        <span class="hero__wash hero__wash--2"></span>
+      </div>
+
+      <div class="hero__inner container">
+        <p class="hero__kicker reveal">
+          <span class="hero__kicker-line"></span>
+          Full-Stack Developer &amp; AI Engineer
+        </p>
+
+        <h1 class="hero__name reveal">
+          <span class="hero__name-hi">Hello, I'm</span>
+          Sanullah Feroz
+        </h1>
+
+        <p class="hero__typing reveal" aria-live="polite">
+          <span class="hero__typing-label">Building&nbsp;</span>
+          <span class="hero__typing-text" id="typing-text">Full-Stack Applications</span>
+          <span class="hero__cursor" aria-hidden="true"></span>
+        </p>
+
+        <p class="hero__desc reveal">
+          I build modern, scalable web applications, powerful backend systems, efficient APIs, and
+          well-designed database architectures — and I engineer intelligent AI systems: agentic AI,
+          AI agents, and workflow automation that reason, plan, and get real work done.
+        </p>
+
+        <div class="hero__actions reveal">
+          <a href="#projects" class="btn btn--primary">View My Projects</a>
+          <a href="#contact" class="btn btn--ghost">Contact Me</a>
+        </div>
+
+        <ul class="hero__meta reveal">
+          <li class="hero__meta-item">
+            <span class="hero__status-dot" aria-hidden="true"></span>
+            Available for freelance &amp; opportunities
+          </li>
+          <li class="hero__meta-item">
+            <a href="mailto:sanullahferoz270@gmail.com">sanullahferoz270@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tech ticker -->
+      <div class="ticker reveal" aria-hidden="true">
+        <div class="ticker__track">
+          <span>Python</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>SQL</span><span>MySQL</span><span>MongoDB</span><span>HTML5</span><span>CSS3</span><span>C</span><span>C++</span><span>Java</span><span>Agentic AI</span><span>AI Agents</span><span>Workflow Automation</span>
+          <span>Python</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>SQL</span><span>MySQL</span><span>MongoDB</span><span>HTML5</span><span>CSS3</span><span>C</span><span>C++</span><span>Java</span><span>Agentic AI</span><span>AI Agents</span><span>Workflow Automation</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <figure class="about__media reveal">
+          <img class="about__photo" src="assets/images/profile.png" alt="Portrait of Sanullah Feroz" width="1024" height="1536" loading="lazy" decoding="async">
+          <span class="about__frame" aria-hidden="true"></span>
+          <figcaption class="about__badge">
+            <span class="about__badge-dot" aria-hidden="true"></span>
+            Full-Stack &amp; AI Engineer
+          </figcaption>
+        </figure>
+
+        <div class="about__content">
+          <p class="section__eyebrow reveal"><span class="section__num">01</span> About Me</p>
+          <h2 class="section__title reveal">Building the future with code &amp; AI.</h2>
+          <p class="about__intro reveal">
+            I am Sanullah Feroz, a passionate Full-Stack Developer and AI Engineer focused on building
+            modern, scalable, and intelligent digital solutions. I enjoy transforming ideas into
+            real-world applications by combining frontend development, backend engineering, database
+            systems, and artificial intelligence.
+          </p>
+          <p class="about__intro reveal">
+            My work spans the full delivery path — designing interfaces, engineering APIs and data
+            layers, and building AI systems such as agentic AI, multi-agent workflows, and automation
+            that reduces repetitive work.
+          </p>
+
+          <div class="about__stats reveal">
+            <div class="stat">
+              <span class="stat__value">5+</span>
+              <span class="stat__label">Programming Languages</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">Full-Stack</span>
+              <span class="stat__label">Frontend · Backend · DB</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">SQL &amp; NoSQL</span>
+              <span class="stat__label">Database Skills</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">Agentic AI</span>
+              <span class="stat__label">Agents &amp; Automation</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="text-link reveal">
+            Start a project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow reveal"><span class="section__num">02</span> Skills</p>
+          <h2 class="section__title reveal">Technical expertise</h2>
+          <p class="section__subtitle reveal">
+            Full-stack engineering and applied AI. Levels are honest and grow over time —
+            <span class="skills__legend"><i data-level="Learning"></i>Learning</span>
+            <span class="skills__legend"><i data-level="Familiar"></i>Familiar</span>
+            <span class="skills__legend"><i data-level="Proficient"></i>Proficient</span>
+          </p>
+        </div>
+
+        <div class="skills__grid">
+          <!-- Programming Languages -->
+          <article class="skill-card reveal">
+            <div class="skill-card__head">
+              <div class="skill-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m8 8-4 4 4 4"/><path d="m16 8 4 4-4 4"/><path d="m13 5-2 14"/></svg>
+              </div>
+              <h3 class="skill-card__title">Programming Languages</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item"><span class="skill-item__name">Python</span><span class="skill-item__level" data-level="Proficient">Proficient</span></li>
+              <li class="skill-item"><span class="skill-item__name">JavaScript</span><span class="skill-item__level" data-level="Proficient">Proficient</span></li>
+              <li class="skill-item"><span class="skill-item__name">C</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">C++</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">Java</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+            </ul>
+          </article>
+
+          <!-- Frontend -->
+          <article class="skill-card reveal">
+            <div class="skill-card__head">
+              <div class="skill-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14l2 2-2 2M13 18h3"/></svg>
+              </div>
+              <h3 class="skill-card__title">Frontend</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item"><span class="skill-item__name">HTML5</span><span class="skill-item__level" data-level="Proficient">Proficient</span></li>
+              <li class="skill-item"><span class="skill-item__name">CSS3</span><span class="skill-item__level" data-level="Proficient">Proficient</span></li>
+              <li class="skill-item"><span class="skill-item__name">JavaScript</span><span class="skill-item__level" data-level="Proficient">Proficient</span></li>
+              <li class="skill-item"><span class="skill-item__name">Responsive UI</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+            </ul>
+          </article>
+
+          <!-- Backend -->
+          <article class="skill-card reveal">
+            <div class="skill-card__head">
+              <div class="skill-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/><path d="M7 7h.01M7 17h.01"/></svg>
+              </div>
+              <h3 class="skill-card__title">Backend</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item"><span class="skill-item__name">Node.js</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">Express.js</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">REST APIs</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">API Integration</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">Full-Stack Development</span><span class="skill-item__level" data-level="Learning">Learning</span></li>
+            </ul>
+          </article>
+
+          <!-- Databases -->
+          <article class="skill-card reveal">
+            <div class="skill-card__head">
+              <div class="skill-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+              </div>
+              <h3 class="skill-card__title">Databases</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item"><span class="skill-item__name">SQL</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">MySQL</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">MongoDB</span><span class="skill-item__level" data-level="Learning">Learning</span></li>
+              <li class="skill-item"><span class="skill-item__name">Database Design</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">Database Management</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+            </ul>
+          </article>
+
+          <!-- Artificial Intelligence -->
+          <article class="skill-card skill-card--ai reveal">
+            <div class="skill-card__head">
+              <div class="skill-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="6" width="12" height="12" rx="3"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/><circle cx="12" cy="12" r="2.5"/></svg>
+              </div>
+              <h3 class="skill-card__title">Artificial Intelligence</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item"><span class="skill-item__name">Artificial Intelligence</span><span class="skill-item__level" data-level="Learning">Learning</span></li>
+              <li class="skill-item"><span class="skill-item__name">Machine Learning Concepts</span><span class="skill-item__level" data-level="Learning">Learning</span></li>
+              <li class="skill-item"><span class="skill-item__name">Python for AI</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">AI Integration</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">AI-Powered Applications</span><span class="skill-item__level" data-level="Learning">Learning</span></li>
+            </ul>
+          </article>
+
+          <!-- Agentic AI & Automation -->
+          <article class="skill-card skill-card--ai reveal">
+            <div class="skill-card__head">
+              <div class="skill-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="7" r="3"/><path d="M12 10v4"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M12 14 7 16m5-2 5 2"/></svg>
+              </div>
+              <h3 class="skill-card__title">Agentic AI &amp; Automation</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item"><span class="skill-item__name">Agentic AI</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">AI Agents</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">Multi-Agent Systems</span><span class="skill-item__level" data-level="Learning">Learning</span></li>
+              <li class="skill-item"><span class="skill-item__name">AI Workflow Automation</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+              <li class="skill-item"><span class="skill-item__name">AI Workflow Design</span><span class="skill-item__level" data-level="Learning">Learning</span></li>
+              <li class="skill-item"><span class="skill-item__name">AI Automation</span><span class="skill-item__level" data-level="Familiar">Familiar</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow reveal"><span class="section__num">03</span> Projects</p>
+          <h2 class="section__title reveal">Selected work</h2>
+          <p class="section__subtitle reveal">Filter by category to explore different areas of focus.</p>
+        </div>
+
+        <div class="projects__filters reveal" role="group" aria-label="Filter projects by category">
+          <button type="button" class="filter-btn active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button type="button" class="filter-btn" data-filter="ai">AI</button>
+          <button type="button" class="filter-btn" data-filter="backend">Backend</button>
+          <button type="button" class="filter-btn" data-filter="database">Database</button>
+        </div>
+
+        <!-- Featured project: AI Smart Assistant -->
+        <article class="project-featured project-card reveal" data-category="ai">
+          <div class="project-featured__media" role="img" aria-label="AI Smart Assistant visual">
+            <div class="project-featured__scene" aria-hidden="true">
+              <span class="pf-node pf-node--user">Prompt</span>
+              <span class="pf-node pf-node--agent">Agent</span>
+              <span class="pf-node pf-node--tool pf-node--t1">Search</span>
+              <span class="pf-node pf-node--tool pf-node--t2">API</span>
+              <span class="pf-node pf-node--tool pf-node--t3">Files</span>
+              <svg class="pf-wires" viewBox="0 0 320 200" preserveAspectRatio="none">
+                <path d="M40 100 H130" /><path d="M190 100 H280" />
+                <path d="M160 80 C160 40 250 40 250 55" /><path d="M160 100 H250" /><path d="M160 120 C160 160 250 160 250 145" />
+              </svg>
+            </div>
+            <span class="project-featured__tag">Featured · Agentic AI</span>
+          </div>
+          <div class="project-card__body project-featured__body">
+            <span class="project-card__category">AI · Agentic Systems</span>
+            <h3 class="project-card__title">AI Smart Assistant</h3>
+            <p class="project-card__desc">
+              An intelligent assistant that understands a user's request, breaks it into steps, and
+              carries them out autonomously. It uses an agentic AI loop to reason and plan, calls
+              tools and external APIs to gather information or take action, chains multiple steps
+              together, and returns a clear, verified result — turning natural-language instructions
+              into completed tasks instead of just answers.
+            </p>
+            <ul class="project-card__features">
+              <li>Reasons and plans multi-step tasks before acting</li>
+              <li>Calls tools &amp; APIs, then combines the results</li>
+              <li>Automates repetitive workflows end to end</li>
+            </ul>
+            <ul class="project-card__tags">
+              <li>Agentic AI</li>
+              <li>AI Agents</li>
+              <li>AI Workflow Automation</li>
+              <li>Intelligent Task Automation</li>
+              <li>Multi-Step AI Workflows</li>
+              <li>Python</li>
+              <li>AI APIs</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-card__links">
+              <!-- TODO: replace # with the real repo / demo URLs -->
+              <a href="#" class="project-link" aria-label="AI Smart Assistant on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-link" aria-label="AI Smart Assistant live demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M5 5h5M5 5v14h14v-5"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <div class="projects__grid" id="projects-grid">
+          <!-- Project: Full-Stack Management System -->
+          <article class="project-card reveal" data-category="fullstack">
+            <div class="project-card__media" role="img" aria-label="Full-Stack Management System visual">
+              <span class="project-card__placeholder">FS</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Full-Stack</span>
+              <h3 class="project-card__title">Full-Stack Management System</h3>
+              <p class="project-card__desc">A management platform with a responsive UI, an Express backend, and a MySQL data layer for structured day-to-day operations.</p>
+              <ul class="project-card__tags">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>Express.js</li><li>MySQL</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="project-link" aria-label="Full-Stack Management System on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="project-link" aria-label="Full-Stack Management System live demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M5 5h5M5 5v14h14v-5"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Modern E-Commerce Platform -->
+          <article class="project-card reveal" data-category="fullstack">
+            <div class="project-card__media" role="img" aria-label="Modern E-Commerce Platform visual">
+              <span class="project-card__placeholder">EC</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Full-Stack</span>
+              <h3 class="project-card__title">Modern E-Commerce Platform</h3>
+              <p class="project-card__desc">A full-stack storefront with product browsing and cart flows, Node.js services, and MongoDB-backed data.</p>
+              <ul class="project-card__tags">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li><li>MongoDB</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="project-link" aria-label="Modern E-Commerce Platform on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="project-link" aria-label="Modern E-Commerce Platform live demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M5 5h5M5 5v14h14v-5"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: AI Chat Application -->
+          <article class="project-card reveal" data-category="ai">
+            <div class="project-card__media" role="img" aria-label="AI Chat Application visual">
+              <span class="project-card__placeholder">CH</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">AI</span>
+              <h3 class="project-card__title">AI Chat Application</h3>
+              <p class="project-card__desc">A conversational interface powered by AI APIs, with a clean chat UI, message history, and Python-driven logic.</p>
+              <ul class="project-card__tags">
+                <li>Python</li><li>AI APIs</li><li>JavaScript</li><li>Chatbot</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="project-link" aria-label="AI Chat Application on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="project-link" aria-label="AI Chat Application live demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M5 5h5M5 5v14h14v-5"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: Database Management System -->
+          <article class="project-card reveal" data-category="database">
+            <div class="project-card__media" role="img" aria-label="Database Management System visual">
+              <span class="project-card__placeholder">DB</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Database</span>
+              <h3 class="project-card__title">Database Management System</h3>
+              <p class="project-card__desc">A structured system for managing relational data with SQL, MySQL, and Java-based tooling, including schema design and queries.</p>
+              <ul class="project-card__tags">
+                <li>SQL</li><li>MySQL</li><li>Java</li><li>Schema Design</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="project-link" aria-label="Database Management System on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="project-link" aria-label="Database Management System live demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M5 5h5M5 5v14h14v-5"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project: REST API Platform -->
+          <article class="project-card reveal" data-category="backend">
+            <div class="project-card__media" role="img" aria-label="REST API Platform visual">
+              <span class="project-card__placeholder">API</span>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Backend</span>
+              <h3 class="project-card__title">REST API Platform</h3>
+              <p class="project-card__desc">A modular REST API built with Node.js and Express.js, backed by MongoDB, with validation, error handling, and clean routing.</p>
+              <ul class="project-card__tags">
+                <li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>REST</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="#" class="project-link" aria-label="REST API Platform on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="project-link" aria-label="REST API Platform live demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M5 5h5M5 5v14h14v-5"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="projects__empty" id="projects-empty" hidden>No projects in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow reveal"><span class="section__num">04</span> Services</p>
+          <h2 class="section__title reveal">What I can build</h2>
+          <p class="section__subtitle reveal">From interfaces to APIs and databases, to agentic AI and automation.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3 class="service-card__title">Full-Stack Web Development</h3>
+            <p class="service-card__desc">End-to-end web applications with a cohesive frontend, backend, and database architecture.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h10M4 18h14"/></svg>
+            </div>
+            <h3 class="service-card__title">Frontend Development</h3>
+            <p class="service-card__desc">Clean, responsive interfaces built with modern HTML, CSS, and JavaScript.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="6" rx="2"/><rect x="3" y="14" width="18" height="6" rx="2"/><path d="M7 7h.01M7 17h.01"/></svg>
+            </div>
+            <h3 class="service-card__title">Backend Development</h3>
+            <p class="service-card__desc">Reliable server-side logic, services, and integrations with Node.js and Express.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 5l-2 14"/></svg>
+            </div>
+            <h3 class="service-card__title">REST API Development</h3>
+            <p class="service-card__desc">Well-structured REST endpoints designed for clarity, scale, and maintainability.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+            </div>
+            <h3 class="service-card__title">Database Design</h3>
+            <p class="service-card__desc">Thoughtful schemas and data models for SQL, MySQL, and document stores.</p>
+          </article>
+
+          <article class="service-card reveal service-card--ai">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="7" r="3"/><path d="M12 10v4"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M12 14 7 16m5-2 5 2"/></svg>
+            </div>
+            <h3 class="service-card__title">Agentic AI Development</h3>
+            <p class="service-card__desc">Build intelligent AI agents that can reason, plan, and perform multi-step tasks.</p>
+          </article>
+
+          <article class="service-card reveal service-card--ai">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h9M4 12h16M4 17h11"/><circle cx="17" cy="7" r="2"/><circle cx="20" cy="17" r="2"/></svg>
+            </div>
+            <h3 class="service-card__title">AI Workflow Automation</h3>
+            <p class="service-card__desc">Design and build automated AI workflows to reduce repetitive work and improve productivity.</p>
+          </article>
+
+          <article class="service-card reveal service-card--ai">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15a2 2 0 01-2 2H8l-4 4V5a2 2 0 012-2h13a2 2 0 012 2z"/><path d="M8 9h8M8 13h5"/></svg>
+            </div>
+            <h3 class="service-card__title">AI Chatbot Development</h3>
+            <p class="service-card__desc">Intelligent, modern AI chatbots for websites, businesses, customer support, and automation.</p>
+          </article>
+
+          <article class="service-card reveal service-card--ai">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3.5"/></svg>
+            </div>
+            <h3 class="service-card__title">AI Integration</h3>
+            <p class="service-card__desc">Connect AI capabilities into existing apps and services for smarter user experiences.</p>
+          </article>
+
+          <article class="service-card reveal service-card--ai">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 4 6v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V6z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3 class="service-card__title">Custom AI Solutions</h3>
+            <p class="service-card__desc">Tailored AI systems — assistants, multi-agent workflows, and intelligent business automation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== JOURNEY ========== -->
+    <section class="journey section" id="journey">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow reveal"><span class="section__num">05</span> Journey</p>
+          <h2 class="section__title reveal">From fundamentals to full-stack &amp; AI</h2>
+          <p class="section__subtitle reveal">A timeline of learning milestones, skills, and projects — how I grew into a Full-Stack Developer and AI Engineer.</p>
+        </div>
+
+        <div class="timeline">
+          <p class="timeline__phase reveal">Foundations</p>
+          <ol class="timeline__list">
+            <li class="timeline__item reveal" data-track="core">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Core</span>
+                <h3 class="timeline__title">Started learning programming</h3>
+                <p class="timeline__desc">Took the first steps into software development, problem-solving, and computational thinking with code.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal" data-track="core">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Core</span>
+                <h3 class="timeline__title">Learned Python, C, C++, and Java</h3>
+                <p class="timeline__desc">Built a foundation across multiple languages and paradigms — syntax, data structures, OOP, and algorithms.</p>
+              </div>
+            </li>
+          </ol>
+
+          <p class="timeline__phase reveal">Full-Stack Development</p>
+          <ol class="timeline__list">
+            <li class="timeline__item reveal" data-track="fullstack">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Frontend</span>
+                <h3 class="timeline__title">Started Frontend Development</h3>
+                <p class="timeline__desc">Began crafting responsive user interfaces with HTML5, CSS3, and JavaScript — layout, accessibility, and interaction.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal" data-track="fullstack">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Backend</span>
+                <h3 class="timeline__title">Learned Backend Development</h3>
+                <p class="timeline__desc">Explored server-side development with Node.js and Express.js — routing, middleware, authentication, and REST API design.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal" data-track="fullstack">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Database</span>
+                <h3 class="timeline__title">Started working with Databases</h3>
+                <p class="timeline__desc">Gained experience with SQL, MySQL, and MongoDB — schema and database design, queries, relationships, and data management.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal" data-track="fullstack">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Full-Stack</span>
+                <h3 class="timeline__title">Building full-stack applications</h3>
+                <p class="timeline__desc">Connected frontend, backend, and database into complete apps — API development and integration, and end-to-end delivery.</p>
+              </div>
+            </li>
+          </ol>
+
+          <p class="timeline__phase reveal">AI Engineering</p>
+          <ol class="timeline__list">
+            <li class="timeline__item reveal" data-track="ai">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">AI</span>
+                <h3 class="timeline__title">Started exploring Artificial Intelligence</h3>
+                <p class="timeline__desc">Began studying AI concepts, machine learning fundamentals, Python for AI, and how intelligent applications are built.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal" data-track="ai">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">AI Agents</span>
+                <h3 class="timeline__title">Moved into AI Agents &amp; Agentic AI</h3>
+                <p class="timeline__desc">Studied agentic AI and multi-agent systems — agents that reason, plan, use tools, and complete multi-step tasks autonomously.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal" data-track="ai">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Automation</span>
+                <h3 class="timeline__title">AI Workflow Automation &amp; Design</h3>
+                <p class="timeline__desc">Focused on designing AI workflows that automate repetitive work, chain steps together, and integrate with real systems and APIs.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal" data-track="ai">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Applications</span>
+                <h3 class="timeline__title">Building AI-powered applications</h3>
+                <p class="timeline__desc">Applying AI to real products — AI chatbots, smart assistants, and AI integrations layered onto web applications.</p>
+              </div>
+            </li>
+          </ol>
+
+          <p class="timeline__phase reveal">Now</p>
+          <ol class="timeline__list">
+            <li class="timeline__item timeline__item--now reveal" data-track="now">
+              <div class="timeline__marker" aria-hidden="true"></div>
+              <div class="timeline__content">
+                <span class="timeline__track-tag">Current focus</span>
+                <h3 class="timeline__title">Building full-stack &amp; AI-powered projects</h3>
+                <p class="timeline__desc">Combining web engineering with agentic AI — shipping applications that pair solid full-stack architecture with intelligent automation.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow reveal"><span class="section__num">06</span> Contact</p>
+          <h2 class="section__title reveal">Let's work together</h2>
+          <p class="section__subtitle reveal">Reach out for collaborations, freelance projects, or opportunities.</p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info reveal">
+            <h3 class="contact__info-title">Get in touch</h3>
+            <p class="contact__info-text">Prefer email? Send a message directly and I'll get back to you as soon as I can.</p>
+
+            <a href="mailto:sanullahferoz270@gmail.com" class="contact__email-card">
+              <span class="contact__email-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
+              </span>
+              <span>
+                <span class="contact__email-label">Email</span>
+                <span class="contact__email">sanullahferoz270@gmail.com</span>
+              </span>
+            </a>
+
+            <div class="contact__availability">
+              <span class="hero__status-dot" aria-hidden="true"></span>
+              Currently available for new projects
+            </div>
+
+            <div class="contact__social">
+              <p class="contact__social-label">Social</p>
+              <ul class="social-list">
+                <!-- TODO: Replace # with your real GitHub profile URL -->
+                <li>
+                  <a href="#" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                    <span>GitHub</span>
+                  </a>
+                </li>
+                <!-- TODO: Replace # with your real LinkedIn profile URL -->
+                <li>
+                  <a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452H16.893V14.883c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a1.98 1.98 0 11-.004-3.96 1.98 1.98 0 01.004 3.96zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    <span>LinkedIn</span>
+                  </a>
+                </li>
+                <!-- TODO: Replace # with your real X/Twitter profile URL -->
+                <li>
+                  <a href="#" class="social-link" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <span>X / Twitter</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <form class="contact__form reveal" id="contact-form" novalidate>
+            <!--
+              Static demo form: shows validation + success UI only.
+              To send real email later, integrate EmailJS or a backend endpoint in script.js.
+              Do NOT put unrestricted API keys in this client-side file for production.
+            -->
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" autocomplete="name" required placeholder="Your name">
+              <span class="form-error" id="fullName-error" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required placeholder="you@example.com">
+              <span class="form-error" id="email-error" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+              <span class="form-error" id="subject-error" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or question..."></textarea>
+              <span class="form-error" id="message-error" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full" id="form-submit">
+              <span class="btn__text">Send Message</span>
+              <span class="btn__loading" hidden>Sending…</span>
+            </button>
+
+            <div class="form-success" id="form-success" hidden role="status" aria-live="polite">
+              Message prepared successfully (demo). This static site does not send email yet — use “Email Me” above or connect EmailJS / a backend later.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="footer__logo">SF</a>
+        <p class="footer__name">Sanullah Feroz</p>
+        <p class="footer__title">Full-Stack Developer &amp; AI Engineer</p>
+        <p class="footer__blurb">Web Development · Full-Stack · Databases · AI Engineering · Agentic AI · AI Agents · Workflow Automation</p>
+        <a href="mailto:sanullahferoz270@gmail.com" class="footer__email">sanullahferoz270@gmail.com</a>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer">
+        <p class="footer__heading">Navigate</p>
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social-wrap">
+        <p class="footer__heading">Connect</p>
+        <ul class="social-list social-list--footer">
+          <!-- TODO: Replace # with real profile URLs -->
+          <li><a href="#" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="#" class="social-link" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p class="footer__copy">&copy; <span id="footer-year">2026</span> Sanullah Feroz. All rights reserved.</p>
+        <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+          Back to Top
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
